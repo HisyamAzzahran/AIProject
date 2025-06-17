@@ -37,6 +37,24 @@ LuxDraw dirancang dengan sistem bimbingan sederhana yang intuitif. Pada tahap pu
 
 <br>
 
+## ⚙️ Alur Kerja Sistem
+
+**Input Pengguna (Menggambar di Canvas)** → **Pengambilan Frame Gambar (OpenCV & WebRTC)** → **Pra-pemrosesan Gambar (Grayscale, Threshold, Cropping)** → **Inferensi Model OCR (EasyOCR)** → **Ekstraksi Hasil (Teks Angka & Skor Keyakinan)** → **Logika Aplikasi (Validasi Jawaban)** → **Umpan Balik Visual (Update Streamlit UI)**
+
+<br>
+
+## 🧠 Metode AI yang Digunakan
+
+Proyek LuxDraw mengimplementasikan beberapa metode inti dalam bidang **Computer Vision** dan **Deep Learning** untuk mencapai fungsionalitasnya. Berikut adalah rinciannya:
+
+* **Computer Vision (CV)**
+    Sebagai fondasi utama, proyek ini menerapkan Computer Vision untuk memungkinkan aplikasi "melihat" dan menginterpretasikan gambar dari input tulisan tangan pengguna secara _real-time_. Seluruh proses, dari pengambilan gambar hingga analisis, berada dalam domain CV.
+
+* **Optical Character Recognition (OCR)**
+    Ini adalah metode inti yang digunakan dalam purwarupa saat ini. Kami memanfaatkan *engine* OCR, yaitu **EasyOCR**, untuk mendeteksi dan mengenali karakter angka yang digambar pengguna pada kanvas. Proses ini mengubah data piksel gambar menjadi data teks (`'0'`, `'1'`, `'2'`, dst.) yang dapat diproses oleh logika program.
+
+<br>
+
 ## 🛠️ Teknologi & Struktur Proyek
 
 Proyek ini dibangun menggunakan serangkaian teknologi modern di bidang Computer Vision dan pengembangan web.
