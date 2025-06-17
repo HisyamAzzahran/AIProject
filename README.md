@@ -1,7 +1,5 @@
 LuxDraw - Pengembangan Computer Vision dengan integrasi Optical Character Recognition (OCR) dan OpenCV sebagai media pembelajaran matematika anak melalui metode Convolutional Neural Network (CNN)
 
-LuxDraw - Pengembangan Computer Vision dengan integrasi Optical Character Recognition (OCR) dan OpenCV sebagai media pembelajaran matematika anak melalui metode Convolutional Neural Network (CNN)
-
 ![alt text](<Poster Project AI.jpg>)
 
 Prototype Computer Vision dengan mengintegrasikan EasyOCR sebagai Media Pembelajaran anak yang interaktif.
