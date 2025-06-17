@@ -50,6 +50,7 @@ Proyek ini dibangun menggunakan serangkaian teknologi modern di bidang Computer 
 
 #### Struktur Folder Proyek
 Berikut adalah arsitektur folder dari proyek LuxDraw:
+```sh
 AIProject/
 ├── assets/
 │   ├── icons/
@@ -61,6 +62,7 @@ AIProject/
 ├── Poster Project AI.jpg
 ├── README.md
 └── requirements.txt
+```
 
 <br>
 
