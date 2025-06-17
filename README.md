@@ -1,59 +1,49 @@
-LuxDraw - Pengembangan Computer Vision dengan integrasi Optical Character Recognition (OCR) dan OpenCV sebagai media pembelajaran matematika anak melalui metode Convolutional Neural Network (CNN)
+# LuxDraw: Media Pembelajaran Matematika Berbasis Computer Vision
 
-![alt text](<Poster Project AI.jpg>)
+Pengembangan Computer Vision dengan integrasi Optical Character Recognition (OCR) dan OpenCV sebagai media pembelajaran matematika interaktif untuk anak melalui metode Convolutional Neural Network (CNN).
 
-Prototype Computer Vision dengan mengintegrasikan EasyOCR sebagai Media Pembelajaran anak yang interaktif.
+![Poster Project AI](https://raw.githubusercontent.com/HisyamAzzahran/AIProject/main/Poster%20Project%20AI.jpg)
 
-Fitur Utama:
-Open Source Technology
+<br>
 
-Easy to Use
+## ✨ Fitur Utama
 
-Beginner Friendly
+-   **Pembelajaran Interaktif**: Media belajar matematika yang modern dan interaktif untuk anak.
+-   **Pengenalan Tulisan Tangan**: Menggunakan OCR untuk mendeteksi angka yang ditulis tangan secara _real-time_.
+-   **Open Source**: Dibangun menggunakan teknologi yang sepenuhnya sumber terbuka.
+-   **Mudah Digunakan**: Antarmuka yang sederhana dan ramah pengguna, cocok untuk pemula.
 
-Teknologi:
+<br>
 
-EasyOCR
+## 🛠️ Teknologi
 
-Python, OpenCV
+-   Python
+-   OpenCV
+-   Streamlit
+-   EasyOCR
+-   Mediapipe
+-   streamlit-webrtc
 
-Streamlit
+<br>
 
-Mediapipe
+## 🚀 Cara Menjalankan
 
-streamlit-webrtc
+1.  **Clone repository ini:**
+    ```sh
+    git clone [https://github.com/HisyamAzzahran/AIProject](https://github.com/HisyamAzzahran/AIProject)
+    ```
 
-Cara Menjalankan:
+2.  **Masuk ke direktori proyek:**
+    ```sh
+    cd AIProject
+    ```
 
-git clone https://github.com/HisyamAzzahran/AIProject
-pip install -r requirements.txt
-streamlit run app.py
+3.  **Install semua _library_ yang dibutuhkan:**
+    ```sh
+    pip install -r requirements.txt
+    ```
 
-Prototype Computer Vision dengan mengintegrasikan EasyOCR sebagai Media Pembelajaran anak yang interaktif.
-
-Fitur Utama:
-Open Source Technology
-
-Easy to Use
-
-Beginner Friendly
-
-Teknologi:
-
-EasyOCR
-
-Python, OpenCV
-
-Streamlit
-
-Mediapipe
-
-streamlit-webrtc
-
-Cara Menjalankan:
-
-git clone https://github.com/HisyamAzzahran/AIProject
-pip install -r requirements.txt
-streamlit run app.py
-
-[def]: <Poster Project AI.jpg>
+4.  **Jalankan aplikasi Streamlit:**
+    ```sh
+    streamlit run app.py
+    ```
