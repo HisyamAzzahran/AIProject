@@ -30,7 +30,7 @@ Pengembangan Computer Vision dengan integrasi Optical Character Recognition (OCR
 
 1.  **Clone repository ini:**
     ```sh
-    git clone [https://github.com/HisyamAzzahran/AIProject](https://github.com/HisyamAzzahran/AIProject)
+    git clone https://github.com/HisyamAzzahran/AIProject
     ```
 
 2.  **Masuk ke direktori proyek:**
