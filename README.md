@@ -39,7 +39,7 @@ LuxDraw dirancang dengan sistem bimbingan sederhana yang intuitif. Pada tahap pu
 
 ## ⚙️ Alur Kerja Sistem
 
-**Input Pengguna (Menggambar di Canvas)** → **Pengambilan Frame Gambar (OpenCV & WebRTC)** → **Pra-pemrosesan Gambar (Grayscale, Threshold, Cropping)** → **Inferensi Model OCR (EasyOCR)** → **Ekstraksi Hasil (Teks Angka & Skor Keyakinan)** → **Logika Aplikasi (Validasi Jawaban)** → **Umpan Balik Visual (Update Streamlit UI)**
+**Input Pengguna (Menggambar di Canvas)** → **Pengambilan Frame Gambar (OpenCV & WebRTC)** → **Inferensi Model OCR (EasyOCR)** → **Ekstraksi Hasil (Teks Angka)** → **Logika Aplikasi (Validasi Jawaban)** → **Hasil (Update Streamlit UI)**
 
 <br>
 
