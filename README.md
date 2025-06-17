@@ -53,8 +53,8 @@ Berikut adalah arsitektur folder dari proyek LuxDraw:
 ```sh
 AIProject/
 ├── assets/
-│   ├── icons/
-│   └── output/
+│   icons/
+│   output/
 ├── scripts/
 │   └── drawing_logic.py
 ├── .gitignore
